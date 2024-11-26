@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'SSZRK',
+  tagline: 'Symulacyjny System Zarządzania Ruchem Kolejowym',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -25,8 +25,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'pl',
+    locales: ['pl'],
   },
 
   presets: [
@@ -66,7 +66,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'SSZRK',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -76,7 +76,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Dokumentacja',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -90,16 +90,21 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'O Nas',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'O Nas',
+              to: '/docs/o-nas',
+            },
+            {
+              label: 'Autorzy',
+              to: '/docs/authors',
+
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Społeczność',
           items: [
             {
               label: 'Stack Overflow',
@@ -116,7 +121,7 @@ const config: Config = {
           ],
         },
         {
-          title: 'More',
+          title: 'Więcej',
           items: [
             {
               label: 'Blog',
@@ -129,7 +134,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} SSZRK Docs, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

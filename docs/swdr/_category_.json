@@ -1,0 +1,8 @@
+{
+    "label": "System Wspomagamia Dyżurnego Ruchu",
+    "position": 3,
+    "link": {
+      "type": "generated-index",
+      "description": "System Wspomagania Dyżurnego ruchu to system wyświetlający wszystkie pociągi przejeżdżające przez dany posterunek ruchu."
+    }
+  }

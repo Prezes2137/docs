@@ -1,0 +1,8 @@
+{
+    "label": "Rozkłady jazdy",
+    "position": 4,
+    "link": {
+      "type": "generated-index",
+      "description": "Generowanie rozkładów jazdy stworzonych w SWDR."
+    }
+  }

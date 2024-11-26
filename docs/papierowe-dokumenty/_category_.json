@@ -1,0 +1,8 @@
+{
+    "label": "Papierowe dokumenty",
+    "position": 2,
+    "link": {
+      "type": "generated-index",
+      "description": "Tworzenie i edycja cyfrowych wersji dokumentów kolejowych."
+    }
+  }
